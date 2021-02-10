@@ -38,7 +38,5 @@ const permutationsRep = (list, length) => {
   return results;
 };
 
-// console.log(permutationsNoRep(['Task 1', 'Task 2', 'Task 3', 'Task 4']));
-// console.log(permutationsRep([1, 2, 3], 4));
-
-module.exports = { permutationsNoRep };
+console.log(permutationsNoRep(['Task 1', 'Task 2', 'Task 3', 'Task 4']));
+console.log(permutationsRep([1, 2, 3], 4));
